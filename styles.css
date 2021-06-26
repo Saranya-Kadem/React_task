@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    padding: 20px;
+}
+.title-text {
+    text-align: center;
+}
+.content-section {
+    margin: 0 12%;
+    background-color: #EFEFEF;
+    display: flex;
+}
+.content-section .numbers-section {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.button-section {
+    text-align: center;
+    width: 30%;
+}
+.button-section button {
+    height: 2.6rem;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 6px;
+    background-color: #72c3dc;
+    box-shadow: 1px 3px #2b8ead;
+    border: none;
+    color: #FFFF;
+}
+.tile {
+    width: 33%;
+    height: 12rem;
+    line-height: 12rem;
+    text-align: center;
+    font-size: 4rem;
+    color: #FFF;
+}
+.color-one {
+    background-color: #6F98A8;
+}
+.color-two {
+    background-color: #2B8EAD;
+}
+.color-three {
+    background-color: #2F454E;
+}
+.color-four {
+    background-color: #BFBFBF;
+}
+.btn-color {
+    background-color: #72C3DC;
+}
+.designed_by_text {
+    font-style: italic;
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+    .content-section {
+        flex-direction: column-reverse;
+        background-color: #FFF;
+    }
+    .title-text {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        background-color: #2f454e;
+        padding: 17px;   
+    }
+    .numbers-section {
+        width: 100% !important;
+    }
+    .button-section {
+        width: 100%;
+        display: flex;
+    }
+    .button-section button {
+        width: 30%;
+        margin: 17px 10px;
+        background-color: #72c3dc;
+        box-shadow: 1px 3px #2b8ead;
+        border: none;
+        color: #EFEFEF;
+    }
+    .button-section button:first-child {
+        margin-left: 18%;
+    }
+    .tile {
+        background-color: #EFEFEF;
+        flex-wrap: nowrap;
+        width: 100%;
+        color: #000;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .designed_by_text {
+        font-style: italic;
+        margin: 10px auto;
+        font-size: 14px;
+    }
+    .color-one {
+        border-left: 8px solid #6F98A8;
+    }
+    .color-two {
+        border-left: 8px solid #2B8EAD;
+    }
+    .color-three {
+        border-left: 8px solid #2F454E;
+    }
+    .color-four {
+        border-left: 8px solid #BFBFBF;
+    }
+}
